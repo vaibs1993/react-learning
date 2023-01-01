@@ -1,19 +1,24 @@
 import React from "react";
-// import { ReactDOM } from "react-dom/client";
 import * as ReactDOM from 'react-dom';
 
+// child element
+const elem1 = React.createElement(
+    "h1",{
+        id: 'childElem'
+    },
+    "Session 2"
+);
 
 
-console.log(React);
-console.log(ReactDOM);
-
-
+// parent element
 const elem = React.createElement(
     "div",{
         id: 'parentElem'
     },
-    "Welcome to React Man.........."
+    "Welcome to React Man..........",
+    [elem1]
 );
+
 
 const root = ReactDOM.createRoot(container);
 root.render(elem);
