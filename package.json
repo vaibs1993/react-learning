@@ -1,20 +1,27 @@
 {
-  "name": "react-ts",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "@types/react": "^18.0.8",
-    "@types/react-dom": "^18.0.2",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  },
+  "name": "session-2",
+  "version": "0.0.1",
+  "description": "react project setup with parcel and npm",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibs1993/react-learning.git"
+  },
+  "author": "Vaibhav Kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibs1993/react-learning/issues"
+  },
+  "homepage": "https://github.com/vaibs1993/react-learning#readme",
+  "dependencies": {
+    "parcel": "^2.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "process": "^0.11.10"
   }
 }
